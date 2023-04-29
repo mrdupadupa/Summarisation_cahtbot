@@ -21,3 +21,9 @@ jobs:
   
     name: Mypy, PyLint, Black, isort
     uses: ./.github/workflows/Lint_test.yml
+    
+  Dependencies :
+    name: Dependencies installation
+   
+    uses: ./.github/workflows/install_dep.yml
+
