@@ -1,6 +1,7 @@
 name: Python setup and flake8 tsest
 
-on: push
+on: 
+  workflow_call:
 
 permissions:
   contents: read
