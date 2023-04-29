@@ -7,8 +7,5 @@ permissions:
 
 jobs:
   job_1:
-    name: setup and flake8 test
-    runs-on: self-hosted
-    steps:
-      - uses: actions/checkout@v3
-      - uses: ./github/workflows/push.yml
+      needs: actions/checkout@v3
+      uses: ./github/workflows/push.yml
