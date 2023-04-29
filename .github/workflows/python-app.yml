@@ -45,7 +45,7 @@ jobs:
       uses: sunnysid3up/python-linter@master
       with:
 #        source: "src"
-        mypy-options: -v
+#        mypy-options: -v
         strict: medium
 #        isort-options: "-w 100"
         django: false
