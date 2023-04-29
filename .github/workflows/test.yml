@@ -11,5 +11,7 @@ jobs:
     
     steps:
     
-    - uses: actions/checkout@v3
-    - uses: ./.github/workflows/push.yml
+    - name: Actions
+      uses: actions/checkout@v3
+    - name: 1st Test
+      uses: ./.github/workflows/push.yml
