@@ -21,3 +21,6 @@ with open('example.pdf', 'rb') as file:
     inputs = tokenizer(text, return_tensors='pt')
     prediction = model.generate(**inputs)
     prediction = tokenizer.batch_decode(prediction)
+    
+    
+    
