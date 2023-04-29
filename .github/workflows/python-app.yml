@@ -48,6 +48,6 @@ jobs:
         mypy-options: "--ignore-missing-imports --show-error-codes"
 #        pylint-options: "--rcfile=pylint.cfg"
         black-options: -h
-        strict: low
-#        isort-options: "-w 100"
+        strict: medium
+        isort-options: "-w 100"
 
