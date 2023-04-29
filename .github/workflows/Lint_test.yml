@@ -6,8 +6,8 @@ on:
 permissions:
   contents: read
   
-  
-  job:
+jobs:  
+  job_1:
   # https://github.com/marketplace/actions/python-linter
   
     name: Mypy, PyLint, Black, isort
