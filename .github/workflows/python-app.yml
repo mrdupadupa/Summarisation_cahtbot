@@ -45,9 +45,9 @@ jobs:
       uses: sunnysid3up/python-linter@master
       with:
 #        source: "src"
-        mypy-options: "--ignore-missing-imports --show-error-codes"
+#        mypy-options: "--ignore-missing-imports --show-error-codes"
 #        pylint-options: "--rcfile=pylint.cfg"
 #        black-options: -v
         strict: low
 #        isort-options: "-w 100"
-        django: false
+
