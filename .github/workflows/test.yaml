@@ -9,4 +9,5 @@ jobs:
   job_1:
     name: setup and flake8 test
     runs-on: self-hosted
-    uses: ./github/workflows/push.yml
+    steps:
+      - uses: ./github/workflows/push.yml
