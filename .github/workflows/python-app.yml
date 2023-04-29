@@ -46,7 +46,7 @@ jobs:
       with:
 #        source: "src"
         mypy-options: "--ignore-missing-imports --show-error-codes"
-        pylint-options: -v
+        pylint-options: "--rcfile=setup.cfg"
         strict: low
 #        isort-options: "-w 100"
         django: false
